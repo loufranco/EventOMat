@@ -1,0 +1,16 @@
+#!/bin/bash
+# This script uses ImageMagick's convert command to make
+# the AppIcon sizes you need from a 1024x1024 PNG named icon-1024.png
+
+pre=icon-
+
+resizeImageTo () {
+  convert -resize ${1}x ${pre}1024.png ${pre}$1.png
+}
+
+sizes=(40 60 58 87 80 120 180 20 29 76 152 167)
+for i in "${sizes[@]}"
+do
+  resizeImageTo $i
+done
+
