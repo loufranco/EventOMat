@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9AF447CB1E4F531A00A445E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF447CA1E4F531A00A445E4 /* AppDelegate.swift */; };
-		9AF447CD1E4F531A00A445E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF447CC1E4F531A00A445E4 /* ViewController.swift */; };
+		9AF447CD1E4F531A00A445E4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF447CC1E4F531A00A445E4 /* HomeViewController.swift */; };
 		9AF447D01E4F531A00A445E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF447CE1E4F531A00A445E4 /* Main.storyboard */; };
 		9AF447D21E4F531A00A445E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF447D11E4F531A00A445E4 /* Assets.xcassets */; };
 		9AF447D51E4F531A00A445E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF447D31E4F531A00A445E4 /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		9AF447C71E4F531A00A445E4 /* EventOMat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventOMat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF447CA1E4F531A00A445E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9AF447CC1E4F531A00A445E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9AF447CC1E4F531A00A445E4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9AF447CF1E4F531A00A445E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9AF447D11E4F531A00A445E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AF447D41E4F531A00A445E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,12 +97,11 @@
 		9AF447C91E4F531A00A445E4 /* EventOMat */ = {
 			isa = PBXGroup;
 			children = (
+				9AF447F81E4F67E900A445E4 /* Views */,
 				9AF447CA1E4F531A00A445E4 /* AppDelegate.swift */,
-				9AF447CC1E4F531A00A445E4 /* ViewController.swift */,
-				9AF447CE1E4F531A00A445E4 /* Main.storyboard */,
 				9AF447D11E4F531A00A445E4 /* Assets.xcassets */,
-				9AF447D31E4F531A00A445E4 /* LaunchScreen.storyboard */,
 				9AF447D61E4F531A00A445E4 /* Info.plist */,
+				9AF447D31E4F531A00A445E4 /* LaunchScreen.storyboard */,
 			);
 			path = EventOMat;
 			sourceTree = "<group>";
@@ -123,6 +122,15 @@
 				9AF447EC1E4F531B00A445E4 /* Info.plist */,
 			);
 			path = EventOMatUITests;
+			sourceTree = "<group>";
+		};
+		9AF447F81E4F67E900A445E4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9AF447CE1E4F531A00A445E4 /* Main.storyboard */,
+				9AF447CC1E4F531A00A445E4 /* HomeViewController.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AF447CD1E4F531A00A445E4 /* ViewController.swift in Sources */,
+				9AF447CD1E4F531A00A445E4 /* HomeViewController.swift in Sources */,
 				9AF447CB1E4F531A00A445E4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +313,7 @@
 				9AF447CF1E4F531A00A445E4 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		9AF447D31E4F531A00A445E4 /* LaunchScreen.storyboard */ = {
@@ -313,6 +322,7 @@
 				9AF447D41E4F531A00A445E4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -516,6 +526,7 @@
 				9AF447F11E4F531B00A445E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AF447F21E4F531B00A445E4 /* Build configuration list for PBXNativeTarget "EventOMatTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +535,7 @@
 				9AF447F41E4F531B00A445E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AF447F51E4F531B00A445E4 /* Build configuration list for PBXNativeTarget "EventOMatUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +544,7 @@
 				9AF447F71E4F531B00A445E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
