@@ -1,3 +1,16 @@
+# Exercise 4: Add a tap gesture to the map
+
+Steps
+
+1. Open LocationViewController.swift
+1. Add an IBAction named `tapMap(sender: UITapGestureRecognizer)` that calls the showDirections... function.
+1. Open Main.storyboard
+1. Choose Location View Controller
+1. Drag a tap gesture onto the map
+1. Choose the tap gesture
+1. Open the Connections Inspector
+1. Connect the Sent Actions > selector to the View Controller's new tapMap action
+
 # EventOMat
 A template iOS project for making conference apps
 
