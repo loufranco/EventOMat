@@ -508,11 +508,6 @@ The parking garage is close to the building, but does cost money. It is however 
                             <constraint firstItem="f35-ha-NyS" firstAttribute="top" secondItem="TiR-Ji-ISM" secondAttribute="bottom" id="yfV-60-g7c"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="dayPicker" destination="X54-St-Uhs" id="Ccm-ma-aZx"/>
-                        <outlet property="searchBar" destination="UOO-bZ-APw" id="mo7-JI-PT7"/>
-                        <outlet property="tableView" destination="abx-dt-kFE" id="R2N-I4-5fQ"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tRY-0S-aaM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
