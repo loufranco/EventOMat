@@ -1,3 +1,14 @@
+# Exercise 2: Connect the outlets on the Schedule
+
+Steps
+
+1. Open Main.storyboard
+1. Go the the Schedule View Controller
+1. Select the Search Bar
+1. Open the connections inspector
+1. Connect the "New Referencing Outlet" to the View Controller's searchBar outlet
+1. Repeat with the day picker and the table view
+
 # EventOMat
 A template iOS project for making conference apps
 
