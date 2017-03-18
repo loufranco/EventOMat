@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A1782B71E637DDD0083CA58 /* ScheduleItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1782B61E637DDD0083CA58 /* ScheduleItemViewController.swift */; };
+		9A1782B91E643A7C0083CA58 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1782B81E643A7C0083CA58 /* AboutViewController.swift */; };
+		9AE2F05E1E4FC891003A8A10 /* CellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE2F05D1E4FC891003A8A10 /* CellType.swift */; };
+		9AE2F0601E579EBE003A8A10 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE2F05F1E579EBE003A8A10 /* LocationViewController.swift */; };
+		9AE2F0621E57A97C003A8A10 /* UINavigationController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE2F0611E57A97C003A8A10 /* UINavigationController+Extensions.swift */; };
+		9AE2F0641E5B79D2003A8A10 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE2F0631E5B79D2003A8A10 /* ScheduleViewController.swift */; };
+		9AE2F0661E5B86D2003A8A10 /* ScheduleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE2F0651E5B86D2003A8A10 /* ScheduleCell.swift */; };
+		9AE2F0681E5B8CB8003A8A10 /* schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AE2F0671E5B8CB8003A8A10 /* schedule.plist */; };
+		9AE2F06B1E5B9518003A8A10 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE2F06A1E5B9518003A8A10 /* Schedule.swift */; };
 		9AF447CB1E4F531A00A445E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF447CA1E4F531A00A445E4 /* AppDelegate.swift */; };
 		9AF447CD1E4F531A00A445E4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF447CC1E4F531A00A445E4 /* HomeViewController.swift */; };
 		9AF447D01E4F531A00A445E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF447CE1E4F531A00A445E4 /* Main.storyboard */; };
@@ -14,6 +23,8 @@
 		9AF447D51E4F531A00A445E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF447D31E4F531A00A445E4 /* LaunchScreen.storyboard */; };
 		9AF447E01E4F531A00A445E4 /* EventOMatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF447DF1E4F531A00A445E4 /* EventOMatTests.swift */; };
 		9AF447EB1E4F531B00A445E4 /* EventOMatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF447EA1E4F531B00A445E4 /* EventOMatUITests.swift */; };
+		9AF447FE1E4FA9B300A445E4 /* LargeTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF447FD1E4FA9B300A445E4 /* LargeTextCell.swift */; };
+		9AF448001E4FAA0E00A445E4 /* NavigationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF447FF1E4FAA0E00A445E4 /* NavigationCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A1782B61E637DDD0083CA58 /* ScheduleItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleItemViewController.swift; sourceTree = "<group>"; };
+		9A1782B81E643A7C0083CA58 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		9AE2F05D1E4FC891003A8A10 /* CellType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellType.swift; sourceTree = "<group>"; };
+		9AE2F05F1E579EBE003A8A10 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		9AE2F0611E57A97C003A8A10 /* UINavigationController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extensions.swift"; sourceTree = "<group>"; };
+		9AE2F0631E5B79D2003A8A10 /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		9AE2F0651E5B86D2003A8A10 /* ScheduleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleCell.swift; sourceTree = "<group>"; };
+		9AE2F0671E5B8CB8003A8A10 /* schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = schedule.plist; sourceTree = "<group>"; };
+		9AE2F06A1E5B9518003A8A10 /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
 		9AF447C71E4F531A00A445E4 /* EventOMat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventOMat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF447CA1E4F531A00A445E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AF447CC1E4F531A00A445E4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +67,8 @@
 		9AF447E61E4F531B00A445E4 /* EventOMatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventOMatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF447EA1E4F531B00A445E4 /* EventOMatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventOMatUITests.swift; sourceTree = "<group>"; };
 		9AF447EC1E4F531B00A445E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AF447FD1E4FA9B300A445E4 /* LargeTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeTextCell.swift; sourceTree = "<group>"; };
+		9AF447FF1E4FAA0E00A445E4 /* NavigationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +96,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9AE2F0691E5B94E3003A8A10 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9AE2F06A1E5B9518003A8A10 /* Schedule.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		9AF447BE1E4F531A00A445E4 = {
 			isa = PBXGroup;
 			children = (
@@ -97,11 +127,13 @@
 		9AF447C91E4F531A00A445E4 /* EventOMat */ = {
 			isa = PBXGroup;
 			children = (
+				9AE2F0691E5B94E3003A8A10 /* Models */,
 				9AF447F81E4F67E900A445E4 /* Views */,
 				9AF447CA1E4F531A00A445E4 /* AppDelegate.swift */,
 				9AF447D11E4F531A00A445E4 /* Assets.xcassets */,
 				9AF447D61E4F531A00A445E4 /* Info.plist */,
 				9AF447D31E4F531A00A445E4 /* LaunchScreen.storyboard */,
+				9AE2F0671E5B8CB8003A8A10 /* schedule.plist */,
 			);
 			path = EventOMat;
 			sourceTree = "<group>";
@@ -127,10 +159,27 @@
 		9AF447F81E4F67E900A445E4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9AF447FC1E4FA97900A445E4 /* Cells */,
 				9AF447CE1E4F531A00A445E4 /* Main.storyboard */,
+				9A1782B81E643A7C0083CA58 /* AboutViewController.swift */,
 				9AF447CC1E4F531A00A445E4 /* HomeViewController.swift */,
+				9AE2F05F1E579EBE003A8A10 /* LocationViewController.swift */,
+				9AE2F0631E5B79D2003A8A10 /* ScheduleViewController.swift */,
+				9AE2F0611E57A97C003A8A10 /* UINavigationController+Extensions.swift */,
+				9A1782B61E637DDD0083CA58 /* ScheduleItemViewController.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		9AF447FC1E4FA97900A445E4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9AE2F05D1E4FC891003A8A10 /* CellType.swift */,
+				9AF447FD1E4FA9B300A445E4 /* LargeTextCell.swift */,
+				9AF447FF1E4FAA0E00A445E4 /* NavigationCell.swift */,
+				9AE2F0651E5B86D2003A8A10 /* ScheduleCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AF447D51E4F531A00A445E4 /* LaunchScreen.storyboard in Resources */,
+				9AE2F0681E5B8CB8003A8A10 /* schedule.plist in Resources */,
 				9AF447D21E4F531A00A445E4 /* Assets.xcassets in Resources */,
 				9AF447D01E4F531A00A445E4 /* Main.storyboard in Resources */,
 			);
@@ -270,8 +320,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AE2F05E1E4FC891003A8A10 /* CellType.swift in Sources */,
 				9AF447CD1E4F531A00A445E4 /* HomeViewController.swift in Sources */,
 				9AF447CB1E4F531A00A445E4 /* AppDelegate.swift in Sources */,
+				9AE2F0641E5B79D2003A8A10 /* ScheduleViewController.swift in Sources */,
+				9AE2F0661E5B86D2003A8A10 /* ScheduleCell.swift in Sources */,
+				9AE2F0601E579EBE003A8A10 /* LocationViewController.swift in Sources */,
+				9A1782B91E643A7C0083CA58 /* AboutViewController.swift in Sources */,
+				9A1782B71E637DDD0083CA58 /* ScheduleItemViewController.swift in Sources */,
+				9AF447FE1E4FA9B300A445E4 /* LargeTextCell.swift in Sources */,
+				9AF448001E4FAA0E00A445E4 /* NavigationCell.swift in Sources */,
+				9AE2F06B1E5B9518003A8A10 /* Schedule.swift in Sources */,
+				9AE2F0621E57A97C003A8A10 /* UINavigationController+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,8 +489,8 @@
 				INFOPLIST_FILE = EventOMat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.loufranco.EventOMat;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loufranco.nerdsummit;
+				PRODUCT_NAME = NERDSummit;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -443,8 +503,8 @@
 				INFOPLIST_FILE = EventOMat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.loufranco.EventOMat;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loufranco.nerdsummit;
+				PRODUCT_NAME = NERDSummit;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
