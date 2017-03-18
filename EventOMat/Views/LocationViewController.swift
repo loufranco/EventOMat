@@ -30,8 +30,4 @@ class LocationViewController: UIViewController {
         showDirectionsInAppleMaps()
     }
 
-    @IBAction func tapMap(sender: UITapGestureRecognizer) {
-        showDirectionsInAppleMaps()
-    }
-
 }

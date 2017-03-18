@@ -167,9 +167,6 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="250" id="xdh-cg-d0m"/>
                                                 </constraints>
-                                                <connections>
-                                                    <outletCollection property="gestureRecognizers" destination="JZ2-qR-ZXg" appends="YES" id="8CG-ae-7Sh"/>
-                                                </connections>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Integrated Sciences Building" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FC6-Hl-GHQ">
                                                 <rect key="frame" x="0.0" y="250.00000000000003" width="414" height="28.666666666666714"/>
@@ -286,11 +283,6 @@ The parking garage is close to the building, but does cost money. It is however 
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4GZ-Oi-59n" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="JZ2-qR-ZXg">
-                    <connections>
-                        <action selector="tapMapWithSender:" destination="4Rr-ZG-tQw" id="sNH-Sx-3O8"/>
-                    </connections>
-                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1278" y="61"/>
         </scene>
