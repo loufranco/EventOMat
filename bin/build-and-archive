@@ -1,0 +1,56 @@
+#!/bin/bash
+
+if [ `which xcpretty` != "" ] ; then
+	FORMATTER=xcpretty
+else
+	FORMATTER=cat
+fi
+
+if [ ! -d 'EventOMat.xcodeproj' ]
+then
+	echo "Run this script from EventOMat project root as bin/build-and-archive"
+	exit
+fi
+
+if [ ! -d build ] ; then
+	mkdir build
+fi
+
+if [ -d build/AdHoc ] ; then
+	rm -rf build/AdHoc
+fi
+
+if [ -d build/AppStore ] ; then
+	rm -rf build/AppStore
+fi
+
+mkdir build/AdHoc
+mkdir build/AppStore
+
+if [ ! -d build/AppStore  -o ! -d build/AdHoc ] ; then
+	echo There was an error creating build subdirectories
+fi
+
+# xcodebuild -project EventOMat.xcodeproj -scheme 'EventOMat' -configuration 'Ad Hoc'  -archivePath build/AdHoc/build.xcarchive archive | $FORMATTER
+# if [ $? -ne 0 ] ; then
+# 	echo There was an error archiving the Ad Hoc configuration
+# 	exit
+# fi
+
+# xcodebuild -exportArchive -archivePath build/AdHoc/build.xcarchive -exportPath build/AdHoc  -exportOptionsPlist bin/AdHocConfiguration.plist | $FORMATTER
+# if [ $? -ne 0 ] ; then
+# 	echo There was an error exporting the Ad Hoc configuration
+# 	exit
+# fi
+
+xcodebuild  -project EventOMat.xcodeproj -scheme 'EventOMat' -configuration 'Release'  -archivePath build/AppStore/build.xcarchive archive | $FORMATTER
+if [ $? -ne 0 ] ; then
+	echo There was an error archiving the App Store configuration
+	exit
+fi
+
+xcodebuild -exportArchive -archivePath build/AppStore/build.xcarchive -exportPath build/AppStore  -exportOptionsPlist bin/AppStoreConfiguration.plist | $FORMATTER
+if [ $? -ne 0 ] ; then
+	echo There was an error exporting the App Store configuration
+	exit
+fi
