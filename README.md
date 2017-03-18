@@ -1,3 +1,12 @@
+# Exercise 3: Connect actions
+
+Steps
+
+1. Open Main.storyboard
+1. Go to the Location View Controller
+1. Choose the Directions button
+1. Connect the "touch up inside" outlet to the the View Controller's "tapDirectionsWithSender:""
+
 # EventOMat
 A template iOS project for making conference apps
 
