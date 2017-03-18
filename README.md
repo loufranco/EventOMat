@@ -1,3 +1,15 @@
+# Exercise 1: Put in the event date
+
+Steps
+
+1. Open HomeViewController.swift
+1. Look for where the cells are constructed
+1. Replace the "" with the date of the event
+
+Hint:
+
+The date is in largeText.
+
 # EventOMat
 A template iOS project for making conference apps
 
