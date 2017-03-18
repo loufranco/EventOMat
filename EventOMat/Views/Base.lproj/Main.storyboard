@@ -189,9 +189,6 @@
                                                     <constraint firstAttribute="height" constant="44" id="tya-ea-LCN"/>
                                                 </constraints>
                                                 <state key="normal" title="Directions"/>
-                                                <connections>
-                                                    <action selector="tapDirectionsWithSender:" destination="4Rr-ZG-tQw" eventType="touchUpInside" id="NNR-IO-AxL"/>
-                                                </connections>
                                             </button>
                                             <view contentMode="scaleToFill" placeholderIntrinsicWidth="414" placeholderIntrinsicHeight="605" translatesAutoresizingMaskIntoConstraints="NO" id="9R1-sW-VVv">
                                                 <rect key="frame" x="0.0" y="346.66666666666674" width="414" height="605"/>
