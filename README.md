@@ -1,3 +1,14 @@
+# Exercise 5: Add the session description to the search
+
+Steps
+
+1. Open Schedule.swift
+1. Look for the two TODO lines and add code to do what they say
+
+Hint:
+
+You get session text by calling `Schedule.sessionText(for: item)`
+
 # EventOMat
 A template iOS project for making conference apps
 
