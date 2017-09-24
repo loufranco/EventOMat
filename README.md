@@ -1,3 +1,15 @@
+# Exercise 6: Add the missing constraint
+
+Steps
+
+1. Read this article about this problem: https://app-o-mat.com/post/infinite-autolayout-tutorials
+1. You want the Large Text Cell's label to take the full width of the cell.
+1. Add back in the missing constraint (in Main.storyboard > Home View Controller > Large Text Cell > Label)
+
+Hint:
+
+Add a trailing constraint.
+
 # EventOMat
 A template iOS project for making conference apps
 
