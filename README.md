@@ -1,3 +1,7 @@
+# IMPORTANT
+
+This repository is way out of date. The [NerdSummit app](https://github.com/app-o-mat/NerdSummit) is a fork and is more up-to-date and a better starting point if you want to use the code to make a conference app.
+
 # EventOMat
 A template iOS project for making conference apps
 
